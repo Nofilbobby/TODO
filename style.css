@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Bebas Neue", sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    background-color:wheat ;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color:#896E77;
+    font-family:  "Bebas Neue", sans-serif;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 100px 25px;
+
+}
+
+ .input {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 100px 205px !important;
+    background-color:wheat ;
+    
+    height: 63px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+ .input2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 100px 205px !important;
+    background-color:wheat ;
+border-radius: 5px;
+    height: 43px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.list {
+    background-color: #C4B6E9;
+    width: 100%;
+    height: calc(100vh - 123px);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+#input {
+    width: 70%;
+    padding: 20px;
+    
+}
+
+.btn {
+    background-color: #C4B6E9;
+    height: 43px;
+    width: 15%;
+    margin-left: 10px;
+    border: none;
+
+
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+.del{
+    border: 1px solid black !important;
+    width: 10%;
+    background-color:wheat ;
+    border: none;
+    height: 39px;
+    margin-left: 13px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.edit{
+    border: 1px solid black !important;
+    width: 10%;
+    background-color:wheat ;
+    border: none;
+    height: 39px;
+    margin-left: 65%;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.li{
+    
+    width: 100%;
+    margin-top: 4px;
+}
+#taskList{
+    list-style: none !important;
+}
